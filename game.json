@@ -1,0 +1,532 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "366763dd-cebd-48a3-90fb-37ddf90a0413",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Project",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "GLJSONTexts",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "GLStructuratedText",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main",
+      "name": "Main",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.8536261070251464,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 55,
+          "layer": "",
+          "locked": false,
+          "name": "TXPlay",
+          "persistentUuid": "f494d13f-62a4-4b27-a7a1-9a062721c373",
+          "width": 384,
+          "x": 96,
+          "y": 41,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "TXTQuit",
+          "persistentUuid": "cfc6a9dd-5d63-4bff-b6ae-8b3a97a05059",
+          "width": 256,
+          "x": 96,
+          "y": 169,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "TXTSettings",
+          "persistentUuid": "37f4a823-7d00-4e33-81d5-f6589f33b7dc",
+          "width": 256,
+          "x": 96,
+          "y": 105,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TXTQuit",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Quit",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TXPlay",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Play",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TXTSettings",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Settings",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "GLJSONTexts",
+                "=",
+                "TextLocalization::ReadText()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "JSONToGlobalVariableStructure"
+              },
+              "parameters": [
+                "GlobalVariableString(GLJSONTexts)",
+                "GLStructuratedText"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TXPlay",
+                    "=",
+                    "GlobalVariableString(GLStructuratedText.play)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TXTSettings",
+                    "=",
+                    "GlobalVariableString(GLStructuratedText.settings)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "TXTQuit",
+                    "=",
+                    "GlobalVariableString(GLStructuratedText.quit)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 32,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "Arthur Pacaud (arthuro555)",
+      "description": "Adds UUID (Universally Unique Identifiers) generation expressions via multiple patterns:\n- UUIDv4: Creates a long random string of characters following the UUIDv4 standard. If available on the system/browser, will use a cryptographic random number generator, otherwise uses the same pseudorandom number generator as the `Random()` expression. Chances of collisions are extremely low, but not non-existent. As the return value is a string, it may not be the most performant pattern. It can not be predicted in most cases.\n- Incremented integer: Returns use an integer that will be incremented after each call. Very performant and no risk of collisions. The UID will be predictable, so it may be vulnerable to some cryptographic attacks if used for private unique tokens, like password reset verification UID. Note that if you store IDs and then restart the game, there may be duplicates, since it'll reset the counter.",
+      "extensionNamespace": "",
+      "fullName": "Unique Identifiers",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWlkZW50aWZpZXIiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNiwxOFY4SDhWMThINk02LDQuNUg4VjYuNUg2VjQuNU0xNyw0SDE5VjE4SDE3VjE3Ljc1QzE3LDE3Ljc1IDE1LjY3LDE4IDE1LDE4QTUsNSAwIDAsMSAxMCwxM0E1LDUgMCAwLDEgMTUsOEMxNS42Nyw4IDE3LDguMjUgMTcsOC4yNVY0TTE3LDEwLjI1QzE3LDEwLjI1IDE1LjY3LDEwIDE1LDEwQTMsMyAwIDAsMCAxMiwxM0EzLDMgMCAwLDAgMTUsMTZDMTUuNjcsMTYgMTcsMTUuNzUgMTcsMTUuNzVWMTAuMjVaIiAvPjwvc3ZnPg==",
+      "name": "UUID",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/identifier.svg",
+      "shortDescription": "A collection of UID generation expressions.",
+      "version": "1.0.0",
+      "tags": [
+        "random",
+        "generation",
+        "uid",
+        "uuid",
+        "guid",
+        "v4",
+        "unique",
+        "id",
+        "identifier"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Generates a unique identifier with the UUIDv4 pattern.",
+          "fullName": "Generate a UUIDv4",
+          "functionType": "StringExpression",
+          "name": "GenerateUUIDv4",
+          "private": false,
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "// Use the engine implementation of UUIDv4.\neventsFunctionContext.returnValue = gdjs.makeUuid();\n",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Generates a unique identifier with the incremented integer pattern.",
+          "fullName": "Generate an incremented integer UID",
+          "functionType": "Expression",
+          "name": "GenerateIncrementedIntegerUID",
+          "private": false,
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "GlobalVariable(__UUID_IncrementedInteger)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "__UUID_IncrementedInteger",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": []
+    },
+    {
+      "author": "Gabriel (@TheGemDev) & Maury Dev (@MauryDev)",
+      "description": "Get the preferred language of the user, set on their browser or device.",
+      "extensionNamespace": "",
+      "fullName": "Language",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWVhcnRoIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE3LjksMTcuMzlDMTcuNjQsMTYuNTkgMTYuODksMTYgMTYsMTZIMTVWMTNBMSwxIDAgMCwwIDE0LDEySDhWMTBIMTBBMSwxIDAgMCwwIDExLDlWN0gxM0EyLDIgMCAwLDAgMTUsNVY0LjU5QzE3LjkzLDUuNzcgMjAsOC42NCAyMCwxMkMyMCwxNC4wOCAxOS4yLDE1Ljk3IDE3LjksMTcuMzlNMTEsMTkuOTNDNy4wNSwxOS40NCA0LDE2LjA4IDQsMTJDNCwxMS4zOCA0LjA4LDEwLjc4IDQuMjEsMTAuMjFMOSwxNVYxNkEyLDIgMCAwLDAgMTEsMThNMTIsMkExMCwxMCAwIDAsMCAyLDEyQTEwLDEwIDAgMCwwIDEyLDIyQTEwLDEwIDAgMCwwIDIyLDEyQTEwLDEwIDAgMCwwIDEyLDJaIiAvPjwvc3ZnPg==",
+      "name": "Language",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/earth.svg",
+      "shortDescription": "Get the preferred language of the user, set on their browser or device.",
+      "version": "0.0.1",
+      "tags": [
+        "javascript",
+        "language"
+      ],
+      "authorIds": [
+        "jy7FXnGX0ZZcWfrAI9YuQaeIphi1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Returns a string representing the preferred language of the user.\nThe format represents the language first, and usually the country where it's used. For example: \"en\" (English), \"en-US\" (English as used in the United States), \"en-GB\" (United Kingdom English), \"es\" (Spanish), \"zh-CN\" (Chinese as used in China), etc.",
+          "fullName": "Language",
+          "functionType": "StringExpression",
+          "name": "Language",
+          "private": false,
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "eventsFunctionContext.returnValue = navigator.language || \"\";",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": []
+    },
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "TextLocalization",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Load Menu Texts",
+          "fullName": "ReadtText",
+          "functionType": "StringExpression",
+          "name": "ReadText",
+          "private": false,
+          "sentence": "",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetReturnString"
+                  },
+                  "parameters": [
+                    "Language::Language()"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "let langu = navigator.language || \"\";\nlet textInLangu = \"Hello World!\";\n\nswitch(langu.toUpperCase()) {\n  case \"IT\":\n    textInLangu = '{\"play\":\"Gioca\",';\n    textInLangu += '\"settings\":\"Parametri\",'\n    textInLangu += '\"quit\":\"Esci\"}';\n    break;\n  case \"EN\":\n    textInLangu = '{\"play\":\"New game\",';\n    textInLangu += '\"settings\":\"Settings\",'\n    textInLangu += '\"quit\":\"Exit\"}';\n    break;\n  default:\n    textInLangu = '{\"play\":\"Start Game\", \"settings\":\"Settings\", \"quit\":\"Exit\"}';\n}\n\neventsFunctionContext.returnValue = textInLangu;\n//eventsFunctionContext.returnValue = langu;\n",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

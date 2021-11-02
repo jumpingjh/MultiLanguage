@@ -1,0 +1,58 @@
+{
+  "author": "",
+  "description": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "TextLocalization",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Load Menu Texts",
+      "fullName": "ReadtText",
+      "functionType": "StringExpression",
+      "name": "ReadText",
+      "private": false,
+      "sentence": "",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetReturnString"
+              },
+              "parameters": [
+                "Language::Language()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "let langu = navigator.language || \"\";\nlet textInLangu = \"Hello World!\";\n\nswitch(langu.toUpperCase()) {\n  case \"IT\":\n    textInLangu = '{\"play\":\"Gioca\",';\n    textInLangu += '\"settings\":\"Parametri\",'\n    textInLangu += '\"quit\":\"Esci\"}';\n    break;\n  case \"EN\":\n    textInLangu = '{\"play\":\"New game\",';\n    textInLangu += '\"settings\":\"Settings\",'\n    textInLangu += '\"quit\":\"Exit\"}';\n    break;\n  default:\n    textInLangu = '{\"play\":\"Start Game\", \"settings\":\"Settings\", \"quit\":\"Exit\"}';\n}\n\neventsFunctionContext.returnValue = textInLangu;\n//eventsFunctionContext.returnValue = langu;\n",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": []
+}
